@@ -19,7 +19,7 @@ public interface ApiService {
         }
         static Retrofit.Builder getBuilder() {
             return new Retrofit.Builder()
-                    .baseUrl("https://my-movies-json.herokuapp.com/")
+                    .baseUrl("https://mytv-json.herokuapp.com/")
                     .addConverterFactory(GsonConverterFactory.create());
         }
     }
